@@ -80,11 +80,7 @@ func parseResponse(response []byte) (results []Result, err error) {
 		if len(pieces) != 3 {
 			continue
 		}
-		/*
-			START HERE
-			finish parsing results line by line
 
-		*/
 		var result Result
 
 		result.Hash = string(pieces[0])
