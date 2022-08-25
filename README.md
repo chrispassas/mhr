@@ -1,7 +1,6 @@
 [![Go Reference](https://pkg.go.dev/badge/github.com/chrispassas/mhr.svg)](https://pkg.go.dev/github.com/chrispassas/mhr)
 [![Go Report Card](https://goreportcard.com/badge/github.com/chrispassas/mhr)](https://goreportcard.com/report/github.com/chrispassas/mhr)
 
-
 # Malware Hash Registry (MHR) 
 https://team-cymru.com/community-services/mhr/
 
