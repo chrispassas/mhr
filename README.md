@@ -1,4 +1,4 @@
-[![GoDoc](https://godoc.org/github.com/chrispassas/mhr?status.svg)](https://godoc.org/github.com/chrispassas/mhr)
+[![GoDoc](https://godoc.org/github.com/chrispassas/mhr?status.svg)](https://pkg.go.dev/github.com/chrispassas/mhr)
 [![Go Report Card](https://goreportcard.com/badge/github.com/chrispassas/mhr)](https://goreportcard.com/report/github.com/chrispassas/mhr)
 
 
