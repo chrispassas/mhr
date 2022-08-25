@@ -11,7 +11,7 @@ This Go Module supports bulk queries to the Team Cymru MHR API.
 Using this module you can submit md5, sha1 or sha256 binary hashes to MHR. The API will return the Anti-virus hit rate and time.
 
 ## Go Doc
-https://godoc.org/github.com/chrispassas/mhr
+https://pkg.go.dev/github.com/chrispassas/mhr
 
 
 
