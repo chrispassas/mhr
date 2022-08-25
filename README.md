@@ -1,6 +1,3 @@
-https://team-cymru.com/community-services/mhr/
-
-
 [![GoDoc](https://godoc.org/github.com/chrispassas/mhr?status.svg)](https://godoc.org/github.com/chrispassas/mhr)
 [![Go Report Card](https://goreportcard.com/badge/github.com/chrispassas/mhr)](https://goreportcard.com/report/github.com/chrispassas/mhr)
 
