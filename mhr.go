@@ -28,7 +28,7 @@ var (
 	ErrMaxHashes = fmt.Errorf("Exceeded max hashes per-request of 1,000")
 )
 
-// Search submit hashes to mhr and recieve slice of Results
+// Search submit hashes to mhr and receive slice of Results
 func Search(ctx context.Context, hashes []string) (results []Result, err error) {
 
 	if len(hashes) > 1000 {
