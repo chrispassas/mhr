@@ -11,17 +11,24 @@ import (
 	"time"
 )
 
+// Result represents the data returned from mhr api per-submitted hash
 type Result struct {
-	Hash      string
+	// Hash binary hash (md5,sha1,sha256)
+	Hash string
+	// Timestamp last scan
 	Timestamp time.Time
-	HitRate   int
-	NoData    bool
+	// HitRate % of AV detecting malware
+	HitRate int
+	// NoData if true there is no MHR data for this binary
+	NoData bool
 }
 
 var (
+	// ErrMaxHashes MHR max batch size 1000 hashes exceeded
 	ErrMaxHashes = fmt.Errorf("Exceeded max hashes per-request of 1,000")
 )
 
+// Search submit hashes to mhr and recieve slice of Results
 func Search(ctx context.Context, hashes []string) (results []Result, err error) {
 
 	if len(hashes) > 1000 {
