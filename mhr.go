@@ -14,13 +14,13 @@ import (
 // Result represents the data returned from mhr api per-submitted hash
 type Result struct {
 	// Hash binary hash (md5,sha1,sha256)
-	Hash string
+	Hash string `json:"hash"`
 	// Timestamp last scan
-	Timestamp time.Time
+	Timestamp time.Time `json:"timestamp"`
 	// HitRate % of AV detecting malware
-	HitRate int
+	HitRate int `json:"hit_rate"`
 	// NoData if true there is no MHR data for this binary
-	NoData bool
+	NoData bool `json:"no_data"`
 }
 
 var (
